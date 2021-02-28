@@ -85,10 +85,10 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         // gets url for the poster and puts the image on app
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
-        let posterUrl = URL(string: baseUrl + posterPath)!
+        let posterUrl = URL(string: baseUrl + posterPath)
         
         // Gets url and takes care of downloading the image
-        cell.posterView.af.setImage(withURL: posterUrl)
+        cell.posterView.af.setImage(withURL: posterUrl!)
         
         
         return cell
@@ -96,14 +96,27 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        //Find Selected Movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        
+        let movie = movies[indexPath.row]
+        
+        //Pass the selected movie to the details view Controller
+        let detailsViewController = segue.destination as! MoviesDetailsViewController
+        detailsViewController.movie = movie
+        
+        //deselects the selected object, get's rid of that dark grey highlight
+        tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
+    
 
 }

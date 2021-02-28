@@ -18,6 +18,9 @@
 		732B47AD25D7497A000F4D05 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B47AC25D7497A000F4D05 /* flixsterUITests.swift */; };
 		732B47C125D74BA2000F4D05 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B47C025D74BA2000F4D05 /* MoviesViewController.swift */; };
 		732B47C625D790B8000F4D05 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B47C525D790B8000F4D05 /* MovieCell.swift */; };
+		73CF3ADE25EAACBF00735666 /* MoviesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF3ADD25EAACBF00735666 /* MoviesDetailsViewController.swift */; };
+		73CF3AE325EAB79300735666 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF3AE225EAB79300735666 /* MovieGridViewController.swift */; };
+		73CF3AE825EABC6600735666 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CF3AE725EABC6600735666 /* MovieGridCell.swift */; };
 		D97DF8EDD31330DA696BAA16 /* Pods_flixster_flixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD06463DC2B2F1A3C7787F8 /* Pods_flixster_flixsterUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		732B47AE25D7497A000F4D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		732B47C025D74BA2000F4D05 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		732B47C525D790B8000F4D05 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		73CF3ADD25EAACBF00735666 /* MoviesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsViewController.swift; sourceTree = "<group>"; };
+		73CF3AE225EAB79300735666 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		73CF3AE725EABC6600735666 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		83F24ADC7F321C248BF820D5 /* Pods_flixster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A55E0F35E423A5B8D54C4 /* Pods-flixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.release.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.release.xcconfig"; sourceTree = "<group>"; };
 		9DA6C416AC19C3D671C1728B /* Pods-flixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster.debug.xcconfig"; path = "Target Support Files/Pods-flixster/Pods-flixster.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				732B479825D74979000F4D05 /* Info.plist */,
 				732B47C025D74BA2000F4D05 /* MoviesViewController.swift */,
 				732B47C525D790B8000F4D05 /* MovieCell.swift */,
+				73CF3ADD25EAACBF00735666 /* MoviesDetailsViewController.swift */,
+				73CF3AE225EAB79300735666 /* MovieGridViewController.swift */,
+				73CF3AE725EABC6600735666 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -412,7 +421,10 @@
 				732B478B25D74972000F4D05 /* AppDelegate.swift in Sources */,
 				732B478D25D74972000F4D05 /* SceneDelegate.swift in Sources */,
 				732B47C625D790B8000F4D05 /* MovieCell.swift in Sources */,
+				73CF3ADE25EAACBF00735666 /* MoviesDetailsViewController.swift in Sources */,
 				732B47C125D74BA2000F4D05 /* MoviesViewController.swift in Sources */,
+				73CF3AE325EAB79300735666 /* MovieGridViewController.swift in Sources */,
+				73CF3AE825EABC6600735666 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
